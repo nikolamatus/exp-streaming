@@ -1,0 +1,5 @@
+numpy>=1.26
+scipy>=1.11
+confluent-kafka>=2.3
+pyspark==3.5.1
+pytest>=8.0

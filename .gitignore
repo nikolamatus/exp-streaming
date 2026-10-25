@@ -1,0 +1,11 @@
+﻿.venv/
+.venv-linux/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+data/checkpoint/
+data/metrics.jsonl
+data/events-live.jsonl
+data/events.jsonl

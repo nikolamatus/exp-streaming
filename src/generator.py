@@ -41,7 +41,7 @@ def main():
     ap.add_argument("--rate", type=float, default=200, help="users per second")
     ap.add_argument("--bug-after", type=int, default=-1, help="user index after which bucketing skews")
     ap.add_argument("--bootstrap", default="localhost:9092")
-    ap.add_argument("--topic", default="events")
+    ap.add_argument("--topic", default="events-live")
     ap.add_argument("--out", default="data/events.jsonl")
     ap.add_argument("--no-kafka", action="store_true")
     ap.add_argument("--seed", type=int, default=7)

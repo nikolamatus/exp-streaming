@@ -1,4 +1,4 @@
-﻿.venv/
+.venv/
 .venv-linux/
 __pycache__/
 *.py[cod]
@@ -9,3 +9,5 @@ data/checkpoint/
 data/metrics.jsonl
 data/events-live.jsonl
 data/events.jsonl
+*.7z
+*.zip

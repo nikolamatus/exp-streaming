@@ -25,7 +25,7 @@ SCHEMA = StructType([
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--bootstrap", default="localhost:9092")
-    ap.add_argument("--topic", default="events")
+    ap.add_argument("--topic", default="events-live")
     ap.add_argument("--metrics-out", default="data/metrics.jsonl")
     ap.add_argument("--checkpoint", default="/tmp/exp-checkpoint")
     ap.add_argument("--watermark", default="2 minutes")
